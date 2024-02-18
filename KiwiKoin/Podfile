@@ -1,0 +1,9 @@
+
+target 'KiwiKoin' do
+
+  use_frameworks!
+
+	pod 'Alamofire'
+
+
+end

@@ -1,0 +1,6 @@
+framework module Pods_KiwiKoin {
+  umbrella header "Pods-KiwiKoin-umbrella.h"
+
+  export *
+  module * { export * }
+}
