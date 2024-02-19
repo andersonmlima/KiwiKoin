@@ -14,6 +14,7 @@
 		64B6CDD52B821A9100C19276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B6CDD32B821A9100C19276 /* Main.storyboard */; };
 		64B6CDD72B821A9300C19276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B6CDD62B821A9300C19276 /* Assets.xcassets */; };
 		64B6CDDA2B821A9300C19276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B6CDD82B821A9300C19276 /* LaunchScreen.storyboard */; };
+		64D6E3DF2B8389620082D465 /* KiwiKoinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D6E3DE2B8389620082D465 /* KiwiKoinController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		64B6CDD62B821A9300C19276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64B6CDD92B821A9300C19276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64B6CDDB2B821A9300C19276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D6E3DE2B8389620082D465 /* KiwiKoinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiwiKoinController.swift; sourceTree = "<group>"; };
 		998FE6E2C4F08E0D1CABD980 /* Pods-KiwiKoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiKoin.debug.xcconfig"; path = "Target Support Files/Pods-KiwiKoin/Pods-KiwiKoin.debug.xcconfig"; sourceTree = "<group>"; };
 		F0C75457162140D684961BD8 /* Pods_KiwiKoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KiwiKoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				64B6CDD32B821A9100C19276 /* Main.storyboard */,
+				64D6E3DE2B8389620082D465 /* KiwiKoinController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D6E3DF2B8389620082D465 /* KiwiKoinController.swift in Sources */,
 				64B6CDD22B821A9100C19276 /* ViewController.swift in Sources */,
 				64B6CDCE2B821A9100C19276 /* AppDelegate.swift in Sources */,
 				64B6CDD02B821A9100C19276 /* SceneDelegate.swift in Sources */,

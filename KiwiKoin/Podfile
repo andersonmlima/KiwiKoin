@@ -4,6 +4,7 @@ target 'KiwiKoin' do
   use_frameworks!
 
 	pod 'Alamofire'
+  pod 'iOSDropDown'
 
 
 end
