@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import iOSDropDown
+import DropDown
 
 class KiwiKoinController: UIViewController {
     
@@ -15,5 +15,19 @@ class KiwiKoinController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    private func configDropDown() {
+        self.dropDownTo.optionArray = self.createList()
+        self.dropDownTo.arrowSize = 5
+        self.dropDownTo.selectedRowColor = .gray
+        
+        self.dropDownFrom.optionArray = self.createList()
+        self.dropDownFrom.arrowSize = 5
+        self.dropDownFrom.selectedRowColor = .gray
+    }
+    
+    private func createList() -> [String] {
+        return ["Moeda 1", "Moeda 2", "Moeda 3"]
     }
 }

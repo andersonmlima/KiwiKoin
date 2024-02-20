@@ -43,7 +43,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FFD-gF-rsw">
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FFD-gF-rsw" customClass="DropDown" customModule="iOSDropDown">
                                                 <rect key="frame" x="0.0" y="29" width="157" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34" id="RhA-vV-gnT"/>
@@ -66,7 +66,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tPo-vb-9S4">
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tPo-vb-9S4" customClass="DropDown" customModule="iOSDropDown">
                                                 <rect key="frame" x="0.0" y="29" width="157" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34" id="HiA-0d-HOG"/>
@@ -143,6 +143,10 @@
                             <constraint firstItem="Qj6-Jh-BXh" firstAttribute="top" secondItem="Q2I-s6-WWA" secondAttribute="bottom" constant="57" id="xai-4V-anJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dropDownFrom" destination="tPo-vb-9S4" id="1XW-JF-GYj"/>
+                        <outlet property="dropDownTo" destination="FFD-gF-rsw" id="7no-TT-Mb1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
